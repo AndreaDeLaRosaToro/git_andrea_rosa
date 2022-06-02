@@ -1,4 +1,4 @@
-package ejemplos_excep_Andrea;
+package ejemplos_excepciones_andrea;
 
 public class MayorNumero {
 	/**

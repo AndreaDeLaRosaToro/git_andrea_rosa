@@ -1,4 +1,4 @@
-package ejemplos_excep_Andrea;
+package ejemplos_excepciones_andrea;
 
 import static org.junit.Assert.assertThrows;
 import static org.junit.Assert.assertTrue;
