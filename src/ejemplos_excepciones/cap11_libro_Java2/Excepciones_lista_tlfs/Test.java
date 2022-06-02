@@ -1,5 +1,4 @@
 package ejemplos_excepciones.cap11_libro_Java2.Excepciones_lista_tlfs;
-import cap10.Banco.*;
 import java.io.*;
 
 /////////////////////////////////////////////////////////////////
@@ -23,6 +22,19 @@ public class Test
     while (op < 1 || op > 5);
     return op;
   }
+  
+  public class Leer {
+
+	    public static int datoInt() {
+	        return 0;
+	    }
+
+	    public static long datoLong() {
+
+	        return 0;
+	    }
+
+	}
   
   public static void main(String[] args)
   {

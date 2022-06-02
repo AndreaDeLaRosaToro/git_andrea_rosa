@@ -1,5 +1,4 @@
 package ejemplos_excepciones.cap11_libro_Java2.Finally;
-import cap10.Banco.*;
 import java.io.*;
 /////////////////////////////////////////////////////////////////
 // Aplicación para trabajar con la clase CBanco y la jerarquía
@@ -29,6 +28,29 @@ public class Test
       if (fcli != null) fcli.close();
     }
   }
+  
+  public class Leer {
+
+	    public static int datoInt() {
+	        return 0;
+	    }
+
+	    public static long datoLong() {
+
+	        return 0;
+	    }
+
+	    public static String dato() {
+
+	        return null;
+	    }
+
+	    public static double datoDouble() {
+
+	        return 0;
+	    }
+
+	}
   
   // Para la entrada de datos se utiliza Leer.class
   public static CCuenta leerDatos(int op)
